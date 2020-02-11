@@ -1,0 +1,141 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+}
+h1{
+	text-align: center;
+	font-size: 10vh;
+	padding-top: 25vh;
+}
+h2{
+	font-size: 3vh;
+}
+h3{
+	font-size: 5vh;
+}
+h4{
+	font-size: 3vh;
+}
+p{
+	font-size: 4vh;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: black;
+}
+.menu{
+	margin-left:25vw;
+	margin-right: 25vw;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 5vw;
+}
+.evs{
+	padding-top: 1.5vh;
+	padding-bottom: 1.5vh;
+}
+.apdb{
+	padding-top: 1.5vh;
+	padding-bottom: 1.5vh;
+}
+.noplay{
+	grid-column: 1/2;
+	border: 1vh solid white;
+	text-align: center;
+}
+.noplay:hover{
+	background-color: white;
+	color: black;
+}
+.play{
+	grid-column: 2/3;
+	border: 1vh solid white;
+	text-align: center;
+}
+.play:hover{
+	background-color: white;
+	color: black;
+}
+
+/*Formulaires questions*/
+.number{
+	font-size: 3vh;
+	font-weight: bold;
+}
+.questions{
+	margin-left: 15vh;
+	margin-right: 15vh;
+	margin-top: 10vh;
+	margin-top: 10vh;
+}
+.reponses{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-auto-rows: repeat(2, 1fr);
+	grid-gap:5vw;
+	text-align: center;
+}
+.reponse01{
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	border: 1vh solid white;
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+.reponse01:hover{
+	background-color: white;
+	color: black;
+}
+.reponse02{
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	border: 1vh solid white;
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+.reponse02:hover{
+	background-color: white;
+	color: black;
+}
+.reponse03{
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	border: 1vh solid white;
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+.reponse03:hover{
+	background-color: white;
+	color: black;
+}
+
+/*Page de résultat*/
+.results{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-auto-rows: repeat(2, 1fr);
+	grid-gap:5vw;
+	text-align: center;
+}
+.maj-a{
+	grid-column: 1/2;
+	grid-row: 2/3;
+	border: 1vh solid white;
+	padding-bottom: 2vh;
+}
+.maj-b{
+	grid-column: 2/3;
+	grid-row: 2/3;
+	border: 1vh solid white;
+	padding-bottom: 2vh;
+}
+.maj-c{
+	grid-column: 3/4;
+	grid-row: 2/3;
+	border: 1vh solid white;
+	padding-bottom: 2vh;
+}
